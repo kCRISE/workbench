@@ -49,7 +49,6 @@ public class OnLineSearchController {
                 //查找到数据、返回到前端
                 return new CommonResponse(true, list, 12);
             }
-
         }
         return new CommonResponse(false, "没有查询到数据");
     }
